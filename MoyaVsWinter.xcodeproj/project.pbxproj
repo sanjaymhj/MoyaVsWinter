@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3397C071F3C44AD003B2810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C061F3C44AD003B2810 /* AppDelegate.swift */; };
+		F3397C091F3C44AD003B2810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C081F3C44AD003B2810 /* ViewController.swift */; };
+		F3397C0C1F3C44AD003B2810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3397C0A1F3C44AD003B2810 /* Main.storyboard */; };
+		F3397C0E1F3C44AD003B2810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3397C0D1F3C44AD003B2810 /* Assets.xcassets */; };
+		F3397C111F3C44AD003B2810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3397C0F1F3C44AD003B2810 /* LaunchScreen.storyboard */; };
+		F3397C1C1F3C44AD003B2810 /* MoyaVsWinterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C1B1F3C44AD003B2810 /* MoyaVsWinterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3397C181F3C44AD003B2810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3397BFB1F3C44AD003B2810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3397C021F3C44AD003B2810;
+			remoteInfo = MoyaVsWinter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3397C031F3C44AD003B2810 /* MoyaVsWinter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaVsWinter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3397C061F3C44AD003B2810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3397C081F3C44AD003B2810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3397C0B1F3C44AD003B2810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3397C0D1F3C44AD003B2810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3397C101F3C44AD003B2810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3397C121F3C44AD003B2810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3397C171F3C44AD003B2810 /* MoyaVsWinterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoyaVsWinterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3397C1B1F3C44AD003B2810 /* MoyaVsWinterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaVsWinterTests.swift; sourceTree = "<group>"; };
+		F3397C1D1F3C44AD003B2810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3397C001F3C44AD003B2810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3397C141F3C44AD003B2810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3397BFA1F3C44AD003B2810 = {
+			isa = PBXGroup;
+			children = (
+				F3397C051F3C44AD003B2810 /* MoyaVsWinter */,
+				F3397C1A1F3C44AD003B2810 /* MoyaVsWinterTests */,
+				F3397C041F3C44AD003B2810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3397C041F3C44AD003B2810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3397C031F3C44AD003B2810 /* MoyaVsWinter.app */,
+				F3397C171F3C44AD003B2810 /* MoyaVsWinterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3397C051F3C44AD003B2810 /* MoyaVsWinter */ = {
+			isa = PBXGroup;
+			children = (
+				F3397C061F3C44AD003B2810 /* AppDelegate.swift */,
+				F3397C081F3C44AD003B2810 /* ViewController.swift */,
+				F3397C0A1F3C44AD003B2810 /* Main.storyboard */,
+				F3397C0D1F3C44AD003B2810 /* Assets.xcassets */,
+				F3397C0F1F3C44AD003B2810 /* LaunchScreen.storyboard */,
+				F3397C121F3C44AD003B2810 /* Info.plist */,
+			);
+			path = MoyaVsWinter;
+			sourceTree = "<group>";
+		};
+		F3397C1A1F3C44AD003B2810 /* MoyaVsWinterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3397C1B1F3C44AD003B2810 /* MoyaVsWinterTests.swift */,
+				F3397C1D1F3C44AD003B2810 /* Info.plist */,
+			);
+			path = MoyaVsWinterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3397C021F3C44AD003B2810 /* MoyaVsWinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3397C201F3C44AD003B2810 /* Build configuration list for PBXNativeTarget "MoyaVsWinter" */;
+			buildPhases = (
+				F3397BFF1F3C44AD003B2810 /* Sources */,
+				F3397C001F3C44AD003B2810 /* Frameworks */,
+				F3397C011F3C44AD003B2810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoyaVsWinter;
+			productName = MoyaVsWinter;
+			productReference = F3397C031F3C44AD003B2810 /* MoyaVsWinter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3397C161F3C44AD003B2810 /* MoyaVsWinterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3397C231F3C44AD003B2810 /* Build configuration list for PBXNativeTarget "MoyaVsWinterTests" */;
+			buildPhases = (
+				F3397C131F3C44AD003B2810 /* Sources */,
+				F3397C141F3C44AD003B2810 /* Frameworks */,
+				F3397C151F3C44AD003B2810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3397C191F3C44AD003B2810 /* PBXTargetDependency */,
+			);
+			name = MoyaVsWinterTests;
+			productName = MoyaVsWinterTests;
+			productReference = F3397C171F3C44AD003B2810 /* MoyaVsWinterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3397BFB1F3C44AD003B2810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Leapfrog;
+				TargetAttributes = {
+					F3397C021F3C44AD003B2810 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = N7DN9W93BF;
+						ProvisioningStyle = Automatic;
+					};
+					F3397C161F3C44AD003B2810 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = N7DN9W93BF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3397C021F3C44AD003B2810;
+					};
+				};
+			};
+			buildConfigurationList = F3397BFE1F3C44AD003B2810 /* Build configuration list for PBXProject "MoyaVsWinter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3397BFA1F3C44AD003B2810;
+			productRefGroup = F3397C041F3C44AD003B2810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3397C021F3C44AD003B2810 /* MoyaVsWinter */,
+				F3397C161F3C44AD003B2810 /* MoyaVsWinterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3397C011F3C44AD003B2810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3397C111F3C44AD003B2810 /* LaunchScreen.storyboard in Resources */,
+				F3397C0E1F3C44AD003B2810 /* Assets.xcassets in Resources */,
+				F3397C0C1F3C44AD003B2810 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3397C151F3C44AD003B2810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3397BFF1F3C44AD003B2810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3397C091F3C44AD003B2810 /* ViewController.swift in Sources */,
+				F3397C071F3C44AD003B2810 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3397C131F3C44AD003B2810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3397C1C1F3C44AD003B2810 /* MoyaVsWinterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3397C191F3C44AD003B2810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3397C021F3C44AD003B2810 /* MoyaVsWinter */;
+			targetProxy = F3397C181F3C44AD003B2810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3397C0A1F3C44AD003B2810 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3397C0B1F3C44AD003B2810 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3397C0F1F3C44AD003B2810 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3397C101F3C44AD003B2810 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3397C1E1F3C44AD003B2810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3397C1F1F3C44AD003B2810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3397C211F3C44AD003B2810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N7DN9W93BF;
+				INFOPLIST_FILE = MoyaVsWinter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snjmhj.MoyaVsWinter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F3397C221F3C44AD003B2810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N7DN9W93BF;
+				INFOPLIST_FILE = MoyaVsWinter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snjmhj.MoyaVsWinter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F3397C241F3C44AD003B2810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N7DN9W93BF;
+				INFOPLIST_FILE = MoyaVsWinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snjmhj.MoyaVsWinterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoyaVsWinter.app/MoyaVsWinter";
+			};
+			name = Debug;
+		};
+		F3397C251F3C44AD003B2810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N7DN9W93BF;
+				INFOPLIST_FILE = MoyaVsWinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snjmhj.MoyaVsWinterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoyaVsWinter.app/MoyaVsWinter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3397BFE1F3C44AD003B2810 /* Build configuration list for PBXProject "MoyaVsWinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3397C1E1F3C44AD003B2810 /* Debug */,
+				F3397C1F1F3C44AD003B2810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3397C201F3C44AD003B2810 /* Build configuration list for PBXNativeTarget "MoyaVsWinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3397C211F3C44AD003B2810 /* Debug */,
+				F3397C221F3C44AD003B2810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3397C231F3C44AD003B2810 /* Build configuration list for PBXNativeTarget "MoyaVsWinterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3397C241F3C44AD003B2810 /* Debug */,
+				F3397C251F3C44AD003B2810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3397BFB1F3C44AD003B2810 /* Project object */;
+}
