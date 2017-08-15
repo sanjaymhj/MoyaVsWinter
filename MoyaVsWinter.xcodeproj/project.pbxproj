@@ -7,12 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E4BD6B7D167E01F592ABC69 /* Pods_MoyaVsWinterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B305293E26CC0F3A644C1CD /* Pods_MoyaVsWinterTests.framework */; };
+		BDCC87998AD8D1E683AFEF85 /* Pods_MoyaVsWinter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A04380F7F21C2FE59EE2A6 /* Pods_MoyaVsWinter.framework */; };
 		F3397C071F3C44AD003B2810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C061F3C44AD003B2810 /* AppDelegate.swift */; };
 		F3397C091F3C44AD003B2810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C081F3C44AD003B2810 /* ViewController.swift */; };
 		F3397C0C1F3C44AD003B2810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3397C0A1F3C44AD003B2810 /* Main.storyboard */; };
 		F3397C0E1F3C44AD003B2810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3397C0D1F3C44AD003B2810 /* Assets.xcassets */; };
 		F3397C111F3C44AD003B2810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3397C0F1F3C44AD003B2810 /* LaunchScreen.storyboard */; };
 		F3397C1C1F3C44AD003B2810 /* MoyaVsWinterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C1B1F3C44AD003B2810 /* MoyaVsWinterTests.swift */; };
+		F3397C281F3C460E003B2810 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C271F3C460E003B2810 /* WebService.swift */; };
+		F3397C2A1F3C470B003B2810 /* WebServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C291F3C470B003B2810 /* WebServiceError.swift */; };
+		F3397C2C1F3C472F003B2810 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C2B1F3C472F003B2810 /* Resource.swift */; };
+		F3397C2E1F3C4784003B2810 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C2D1F3C4784003B2810 /* TokenManager.swift */; };
+		F3397C301F3C4791003B2810 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C2F1F3C4791003B2810 /* Token.swift */; };
+		F3397C321F3C4BB2003B2810 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C311F3C4BB2003B2810 /* Dictionary+Extension.swift */; };
+		F3397C341F3C4BE9003B2810 /* KeyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C331F3C4BE9003B2810 /* KeyConstants.swift */; };
+		F3397C361F3C4C1E003B2810 /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C351F3C4C1E003B2810 /* URLConstants.swift */; };
+		F3397C381F3C4CC8003B2810 /* HeaderComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C371F3C4CC8003B2810 /* HeaderComposer.swift */; };
+		F3397C3A1F3C4D4A003B2810 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C391F3C4D4A003B2810 /* UserDefaults+Extension.swift */; };
+		F3397C3C1F3C4DBD003B2810 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C3B1F3C4DBD003B2810 /* String+Extensions.swift */; };
+		F3397C3E1F3C4E47003B2810 /* ErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C3D1F3C4E47003B2810 /* ErrorCode.swift */; };
+		F3397C401F3C4ECE003B2810 /* ResponseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C3F1F3C4ECE003B2810 /* ResponseCode.swift */; };
+		F3397C441F3C500D003B2810 /* WUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C431F3C500D003B2810 /* WUser.swift */; };
+		F3397C461F3C501C003B2810 /* MUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C451F3C501C003B2810 /* MUser.swift */; };
+		F3397C481F3C996D003B2810 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3397C471F3C996D003B2810 /* User.swift */; };
+		F3C2BE611F418BFD0030496C /* ConnectURLConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C2BE601F418BFD0030496C /* ConnectURLConstant.swift */; };
+		F3C2BE631F418C7D0030496C /* LegacyLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C2BE621F418C7D0030496C /* LegacyLoginModel.swift */; };
+		F3FDD2661F3D6B14005772BA /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDD2651F3D6B14005772BA /* StringConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B305293E26CC0F3A644C1CD /* Pods_MoyaVsWinterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaVsWinterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E348592D7B9DEA75DCEA2EF /* Pods-MoyaVsWinterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaVsWinterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaVsWinterTests/Pods-MoyaVsWinterTests.release.xcconfig"; sourceTree = "<group>"; };
+		56E5E605AD57C0F8AE6A3A51 /* Pods-MoyaVsWinterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaVsWinterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaVsWinterTests/Pods-MoyaVsWinterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C597604E2B314CE811BA48 /* Pods-MoyaVsWinter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaVsWinter.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaVsWinter/Pods-MoyaVsWinter.release.xcconfig"; sourceTree = "<group>"; };
+		B7A04380F7F21C2FE59EE2A6 /* Pods_MoyaVsWinter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaVsWinter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3397C031F3C44AD003B2810 /* MoyaVsWinter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaVsWinter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3397C061F3C44AD003B2810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3397C081F3C44AD003B2810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +62,26 @@
 		F3397C171F3C44AD003B2810 /* MoyaVsWinterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoyaVsWinterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3397C1B1F3C44AD003B2810 /* MoyaVsWinterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaVsWinterTests.swift; sourceTree = "<group>"; };
 		F3397C1D1F3C44AD003B2810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3397C271F3C460E003B2810 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		F3397C291F3C470B003B2810 /* WebServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceError.swift; sourceTree = "<group>"; };
+		F3397C2B1F3C472F003B2810 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		F3397C2D1F3C4784003B2810 /* TokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		F3397C2F1F3C4791003B2810 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		F3397C311F3C4BB2003B2810 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
+		F3397C331F3C4BE9003B2810 /* KeyConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyConstants.swift; sourceTree = "<group>"; };
+		F3397C351F3C4C1E003B2810 /* URLConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		F3397C371F3C4CC8003B2810 /* HeaderComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderComposer.swift; sourceTree = "<group>"; };
+		F3397C391F3C4D4A003B2810 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		F3397C3B1F3C4DBD003B2810 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		F3397C3D1F3C4E47003B2810 /* ErrorCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorCode.swift; sourceTree = "<group>"; };
+		F3397C3F1F3C4ECE003B2810 /* ResponseCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseCode.swift; sourceTree = "<group>"; };
+		F3397C431F3C500D003B2810 /* WUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUser.swift; sourceTree = "<group>"; };
+		F3397C451F3C501C003B2810 /* MUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUser.swift; sourceTree = "<group>"; };
+		F3397C471F3C996D003B2810 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F3C2BE601F418BFD0030496C /* ConnectURLConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectURLConstant.swift; path = CareConnectAPI/ConnectURLConstant.swift; sourceTree = "<group>"; };
+		F3C2BE621F418C7D0030496C /* LegacyLoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LegacyLoginModel.swift; path = CareConnectAPI/LegacyLoginModel.swift; sourceTree = "<group>"; };
+		F3FDD2651F3D6B14005772BA /* StringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		FA4DF53D85B0CB400F94FA8A /* Pods-MoyaVsWinter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaVsWinter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaVsWinter/Pods-MoyaVsWinter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDCC87998AD8D1E683AFEF85 /* Pods_MoyaVsWinter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,20 +97,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E4BD6B7D167E01F592ABC69 /* Pods_MoyaVsWinterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A81C9A63A4EDE4B0AE62DEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DF53D85B0CB400F94FA8A /* Pods-MoyaVsWinter.debug.xcconfig */,
+				A4C597604E2B314CE811BA48 /* Pods-MoyaVsWinter.release.xcconfig */,
+				56E5E605AD57C0F8AE6A3A51 /* Pods-MoyaVsWinterTests.debug.xcconfig */,
+				2E348592D7B9DEA75DCEA2EF /* Pods-MoyaVsWinterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E05B3FAAEAFB62F645073221 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7A04380F7F21C2FE59EE2A6 /* Pods_MoyaVsWinter.framework */,
+				0B305293E26CC0F3A644C1CD /* Pods_MoyaVsWinterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F3397BFA1F3C44AD003B2810 = {
 			isa = PBXGroup;
 			children = (
 				F3397C051F3C44AD003B2810 /* MoyaVsWinter */,
 				F3397C1A1F3C44AD003B2810 /* MoyaVsWinterTests */,
 				F3397C041F3C44AD003B2810 /* Products */,
+				4A81C9A63A4EDE4B0AE62DEB /* Pods */,
+				E05B3FAAEAFB62F645073221 /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		F3397C041F3C44AD003B2810 /* Products */ = {
 			isa = PBXGroup;
@@ -77,12 +149,18 @@
 		F3397C051F3C44AD003B2810 /* MoyaVsWinter */ = {
 			isa = PBXGroup;
 			children = (
+				F3C2BE5F1F418BC30030496C /* CareConnectAPI */,
+				F3397C421F3C4FCE003B2810 /* WinterRequester */,
+				F3397C411F3C4FBA003B2810 /* MoyaRequester */,
+				F3397C261F3C45DF003B2810 /* Winter */,
 				F3397C061F3C44AD003B2810 /* AppDelegate.swift */,
 				F3397C081F3C44AD003B2810 /* ViewController.swift */,
 				F3397C0A1F3C44AD003B2810 /* Main.storyboard */,
 				F3397C0D1F3C44AD003B2810 /* Assets.xcassets */,
 				F3397C0F1F3C44AD003B2810 /* LaunchScreen.storyboard */,
 				F3397C121F3C44AD003B2810 /* Info.plist */,
+				F3397C471F3C996D003B2810 /* User.swift */,
+				F3FDD2651F3D6B14005772BA /* StringConstants.swift */,
 			);
 			path = MoyaVsWinter;
 			sourceTree = "<group>";
@@ -96,6 +174,51 @@
 			path = MoyaVsWinterTests;
 			sourceTree = "<group>";
 		};
+		F3397C261F3C45DF003B2810 /* Winter */ = {
+			isa = PBXGroup;
+			children = (
+				F3397C2D1F3C4784003B2810 /* TokenManager.swift */,
+				F3397C2F1F3C4791003B2810 /* Token.swift */,
+				F3397C2B1F3C472F003B2810 /* Resource.swift */,
+				F3397C291F3C470B003B2810 /* WebServiceError.swift */,
+				F3397C271F3C460E003B2810 /* WebService.swift */,
+				F3397C311F3C4BB2003B2810 /* Dictionary+Extension.swift */,
+				F3397C331F3C4BE9003B2810 /* KeyConstants.swift */,
+				F3397C351F3C4C1E003B2810 /* URLConstants.swift */,
+				F3397C371F3C4CC8003B2810 /* HeaderComposer.swift */,
+				F3397C391F3C4D4A003B2810 /* UserDefaults+Extension.swift */,
+				F3397C3B1F3C4DBD003B2810 /* String+Extensions.swift */,
+				F3397C3D1F3C4E47003B2810 /* ErrorCode.swift */,
+				F3397C3F1F3C4ECE003B2810 /* ResponseCode.swift */,
+			);
+			name = Winter;
+			sourceTree = "<group>";
+		};
+		F3397C411F3C4FBA003B2810 /* MoyaRequester */ = {
+			isa = PBXGroup;
+			children = (
+				F3397C451F3C501C003B2810 /* MUser.swift */,
+			);
+			name = MoyaRequester;
+			sourceTree = "<group>";
+		};
+		F3397C421F3C4FCE003B2810 /* WinterRequester */ = {
+			isa = PBXGroup;
+			children = (
+				F3397C431F3C500D003B2810 /* WUser.swift */,
+			);
+			name = WinterRequester;
+			sourceTree = "<group>";
+		};
+		F3C2BE5F1F418BC30030496C /* CareConnectAPI */ = {
+			isa = PBXGroup;
+			children = (
+				F3C2BE601F418BFD0030496C /* ConnectURLConstant.swift */,
+				F3C2BE621F418C7D0030496C /* LegacyLoginModel.swift */,
+			);
+			name = CareConnectAPI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3397C201F3C44AD003B2810 /* Build configuration list for PBXNativeTarget "MoyaVsWinter" */;
 			buildPhases = (
+				8529CC2EEF1DBC070D40930F /* [CP] Check Pods Manifest.lock */,
 				F3397BFF1F3C44AD003B2810 /* Sources */,
 				F3397C001F3C44AD003B2810 /* Frameworks */,
 				F3397C011F3C44AD003B2810 /* Resources */,
+				77077051DF0407A3FE99F6A9 /* [CP] Embed Pods Frameworks */,
+				9B109098D27D37A297992244 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3397C231F3C44AD003B2810 /* Build configuration list for PBXNativeTarget "MoyaVsWinterTests" */;
 			buildPhases = (
+				43238FEC63B05828F42B1CC6 /* [CP] Check Pods Manifest.lock */,
 				F3397C131F3C44AD003B2810 /* Sources */,
 				F3397C141F3C44AD003B2810 /* Frameworks */,
 				F3397C151F3C44AD003B2810 /* Resources */,
+				8E738DFA5225E53E5604B1AC /* [CP] Embed Pods Frameworks */,
+				C975B79F237F2954FBF1E865 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,13 +325,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43238FEC63B05828F42B1CC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77077051DF0407A3FE99F6A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaVsWinter/Pods-MoyaVsWinter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8529CC2EEF1DBC070D40930F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E738DFA5225E53E5604B1AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaVsWinterTests/Pods-MoyaVsWinterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B109098D27D37A297992244 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaVsWinter/Pods-MoyaVsWinter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C975B79F237F2954FBF1E865 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaVsWinterTests/Pods-MoyaVsWinterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3397BFF1F3C44AD003B2810 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3397C281F3C460E003B2810 /* WebService.swift in Sources */,
+				F3397C3C1F3C4DBD003B2810 /* String+Extensions.swift in Sources */,
+				F3397C401F3C4ECE003B2810 /* ResponseCode.swift in Sources */,
+				F3397C361F3C4C1E003B2810 /* URLConstants.swift in Sources */,
+				F3397C3E1F3C4E47003B2810 /* ErrorCode.swift in Sources */,
+				F3397C301F3C4791003B2810 /* Token.swift in Sources */,
+				F3397C341F3C4BE9003B2810 /* KeyConstants.swift in Sources */,
+				F3397C2E1F3C4784003B2810 /* TokenManager.swift in Sources */,
+				F3397C321F3C4BB2003B2810 /* Dictionary+Extension.swift in Sources */,
+				F3397C2A1F3C470B003B2810 /* WebServiceError.swift in Sources */,
 				F3397C091F3C44AD003B2810 /* ViewController.swift in Sources */,
+				F3397C2C1F3C472F003B2810 /* Resource.swift in Sources */,
+				F3397C441F3C500D003B2810 /* WUser.swift in Sources */,
+				F3397C461F3C501C003B2810 /* MUser.swift in Sources */,
+				F3397C481F3C996D003B2810 /* User.swift in Sources */,
+				F3FDD2661F3D6B14005772BA /* StringConstants.swift in Sources */,
+				F3397C381F3C4CC8003B2810 /* HeaderComposer.swift in Sources */,
+				F3397C3A1F3C4D4A003B2810 /* UserDefaults+Extension.swift in Sources */,
+				F3C2BE611F418BFD0030496C /* ConnectURLConstant.swift in Sources */,
 				F3397C071F3C44AD003B2810 /* AppDelegate.swift in Sources */,
+				F3C2BE631F418C7D0030496C /* LegacyLoginModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +573,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -341,11 +583,13 @@
 		};
 		F3397C211F3C44AD003B2810 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4DF53D85B0CB400F94FA8A /* Pods-MoyaVsWinter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N7DN9W93BF;
 				INFOPLIST_FILE = MoyaVsWinter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = snjmhj.MoyaVsWinter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -354,11 +598,13 @@
 		};
 		F3397C221F3C44AD003B2810 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C597604E2B314CE811BA48 /* Pods-MoyaVsWinter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N7DN9W93BF;
 				INFOPLIST_FILE = MoyaVsWinter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = snjmhj.MoyaVsWinter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -367,6 +613,7 @@
 		};
 		F3397C241F3C44AD003B2810 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E5E605AD57C0F8AE6A3A51 /* Pods-MoyaVsWinterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,6 +629,7 @@
 		};
 		F3397C251F3C44AD003B2810 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E348592D7B9DEA75DCEA2EF /* Pods-MoyaVsWinterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,6 +662,7 @@
 				F3397C221F3C44AD003B2810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3397C231F3C44AD003B2810 /* Build configuration list for PBXNativeTarget "MoyaVsWinterTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +671,7 @@
 				F3397C251F3C44AD003B2810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_MoyaVsWinterTests {
+  umbrella header "Pods-MoyaVsWinterTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
